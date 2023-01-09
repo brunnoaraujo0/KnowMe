@@ -1,104 +1,104 @@
 let questions = [
     {
-        question: 'Em qual elemento HTML nós colocamos o javascript?',
+        question: 'Qual o meu primeiro nome?',
         options: [
-            'tag js',
-            'tag script',
-            'tag scripting',
-            'tag javascript'
-        ],
-        answer: 1
-    },
-    {
-        question: 'Onde é o local certo de colocar o javascript?',
-        options: [
-            'Na tag body',
-            'Na tag head',
-            'Tanto na tag body quanto a head estão corretas'
+            'João',
+            'Diogines',
+            'Dioclécio',
+            'Gabriel'
         ],
         answer: 2
     },
     {
-        question: 'Qual a sintaxe correta para adicionar um arquivo javascript externo na tag script?',
+        question: 'O que mais desprezo em alguém?',
         options: [
-            'name="xxx.js"',
-            'src="xxx.js"',
-            'href="xxx.js"'
+            'Hipocrisia',
+            'Falsidade',
+            'Inveja',
+            'Ganância'
         ],
-        answer: 1
+        answer: 0
     },
     {
-        question: 'Um arquivo javascript externo precisa ter a tag script',
+        question: 'Quantas namoradas já tive?',
         options: [
-            'Verdade',
-            'Falso'
+            'Uma',
+            'Duas',
+            'Três',
+            'Nenhuma'
         ],
-        answer: 1
+        answer: 0
     },
     {
-        question: 'Como escrever um "Olá Mundo" em um alertbox?',
+        question: 'O que faço quando tô com ansiedade?',
         options: [
-            'alertBox("Olá Mundo")',
-            'msgBox("Olá Mundo")',
-            'msg("Olá Mundo")',
-            'alert("Olá Mundo")'
+            'Durmo',
+            'Choro',
+            'Caminho',
+            'Não tenho ansiedade.'
+        ],
+        answer: 0
+    },
+    {
+        question: 'Quem é a pessoa que mais amo na vida?',
+        options: [
+            'Minha mãe',
+            'Meu irmão do meio',
+            'Meu pai',
+            'Meu irmão mais novo'
         ],
         answer: 3
     },
     {
-        question: 'Como você cria uma função no Javascript?',
+        question: 'Qual é o meu maior sonho?',
         options: [
-            'function:minhaFuncao()',
-            'function = minhaFuncao()',
-            'function minhaFuncao()'
+            'Viajar o mundo',
+            'Ser famoso',
+            'Ser rico',
+            'Ser pai',
+
+        ],
+        answer: 3
+    },
+    {
+        question: 'O que mais gosto de fazer?',
+        options: [
+            'Dormir',
+            'Assistir filme/serie',
+            'Viajar',
+            'Estudar'
         ],
         answer: 2
     },
     {
-        question: 'Como chamar uma função chamada "minhaFuncao"?',
+        question: 'Quantos anos tenho?',
         options: [
-            'call minhaFuncao',
-            'call function minhaFuncao',
-            'minhaFuncao()'
+            '20 anos',
+            '21 anos',
+            '22 anos',
+            '18 anos'
         ],
-        answer: 2
+        answer: 1
     },
     {
-        question: 'Como escrever uma condicional IF no Javascript?',
+        question: 'Qual minha série preferida?',
         options: [
-            'if i = 5',
-            'if i == 5 then',
-            'if (i == 5)',
-            'if i = 5 then'
-        ],
-        answer: 2
-    },
-    {
-        question: 'Como fazer um if que executa um código caso "i" for diferente de 5',
-        options: [
-            'if (i != 5)',
-            'if (i <> 5)',
-            'if i <> 5',
-            'if i =! 5 then'
+            'Game of thrones',
+            'Dark',
+            'Vikings',
+            'Stranger Things'
         ],
         answer: 0
     },
     {
-        question: 'Como o loop while começa?',
+        question: 'O que mais prezo por um amigo?',
         options: [
-            'while (i <= 10)',
-            'while (i <= 10; i++)',
-            'while i = 1 to 10'
+            'Lealdade',
+            'Empatia',
+            'Honestidade',
+            'Respeito'
         ],
-        answer: 0
+        answer: 1
     },
-    {
-        question: 'Gostou do projeto?',
-        options: [
-            'Sim',
-            'Não',
-            'Talvez'
-        ],
-        answer: 0
-    },
+    
 ];

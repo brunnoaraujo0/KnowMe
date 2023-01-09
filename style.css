@@ -102,46 +102,57 @@ h1 {
 }
 
 .scoreArea {
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 20px;
-    border-radius: 20px;
+    background-color: #262626;
+    padding: 40px;
+    border-radius: 50px;
     margin: 10px;
     text-align: center;
+    max-width: 500px;
 }
 .prizeImage {
     width: auto;
     height: 100px;
-    margin-bottom: 10px;
 }
 .scoreText1 {
-    color: #000;
+    color: #CCC;
     font-size: 23px;
-    font-weight: bold;
-    margin-bottom: 10px;
+    font-weight: 800;
+    margin-top: -10px;
 }
 .scorePct {
     color: #0d630d;
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 25px;
+    font-weight: 900;
     margin-bottom: 10px;
+    line-height: 50px;
+}
+.scorePct span {
+    font-size: 80px;
 }
 .scoreText2 {
     font-size: 16px;
-    color: #000;
-    margin-bottom: 10px;
+    color: #CCC;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .scoreArea button {
-    border: 0;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    background-color: #262626;
     color: #CCC;
-    padding: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
     cursor: pointer;
+    border: 2px solid #CCC;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 0.8rem 1.5rem;
+    transition: all ease 0.3s;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    
 }
 .scoreArea button:hover {
     background-color: rgba(0, 0, 0, 0.4);
+    border: 2px solid #262626;
 }
 
 footer {
